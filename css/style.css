@@ -1,0 +1,133 @@
+body {
+	position: relative;
+	margin:0;
+	background-color: #333333 /* Not active for start */
+}
+
+* {
+	position: relative;
+}
+
+.box{
+	height:200px;
+	width:200px;
+	background-color: turquoise;
+}
+
+.box2{
+	height:200px;
+	width:350px;
+	background-color: rebeccapurple;
+
+}
+
+.box3{
+	height:200px;
+	width:200px;
+	background-color: lightcoral
+}
+
+.fullheight{
+	height:65vh;
+	width:100vw;
+	background-color: lightgray; 
+}
+
+/* For pinning*/
+.container {
+	position: relative;
+	height:110vh;
+
+}
+
+.active {
+	
+	background-color: rgb(131, 131, 131)
+}
+
+.start {
+	position: absolute;
+	 height:auto; 
+	width:100vw;
+	height:60vh;
+	background-color: gold;
+
+}
+.box_pinning1 {
+	position: absolute; 
+	height:60vh;
+	width:100vw;
+	background-color: #ededed; 
+	z-index:3;
+	 transform: translateX(0%) 
+}
+
+.box_pinning2 {
+	position: absolute;
+	height:60vh;
+	width:100vw;
+	background-color: #8a8a8a; 
+	z-index:2;
+	 transform: translateX(-100%) 
+}
+
+.box_pinning3 {
+	position: absolute; 
+	height:60vh;
+	width:100vw;
+	background-color: #6a6a6a; 
+	z-index:1;
+	 transform: translateY(100%) 
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap');
+
+body {
+	font-family: 'Oswald';
+	display:flex;
+	justify-content: center;
+	margin:0;
+	height:100vh;
+	background-color: #ededed
+}
+
+.container {
+	height:100%;
+}
+
+#btn {
+	position: relative;
+	background-color: violet;
+	border: 4px solid yellow;
+	color: blue;
+	font-size: 20px;
+	padding:10px;
+}
+
+.rolling_box {
+	width: 50%;
+	height:0px;
+	background-color: #bababa;
+	position: absolute;
+ 	bottom:0;
+	right:0;
+	padding: 20px; 
+	box-sizing: border-box;
+	transform-origin: bottom;
+	transform: scaleY(0)
+}
+
+.rolling_box p {
+	font-size: 26px;
+	opacity:1;
+	width:auto
+
+}
+
+.rolling_box .box_inside {
+	border: 3px solid #dddddd;
+	padding:10px;
+	opacity:1;
+	transform: scale(0);
+	
+} */
